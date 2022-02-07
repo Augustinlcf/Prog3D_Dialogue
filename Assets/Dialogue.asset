@@ -12,4 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39b6521581e92fa48af79f36686be90e, type: 3}
   m_Name: Dialogue
   m_EditorClassIdentifier: 
-  dialogue: []
+  dialogue:
+  - 'Giovanni : Arrgh!! I lost again !?'
+  - 'Sasha : Ha ! That was a truly intense fight !'
+  - 'Sasha : You are facing the world''s greatest Trainer.'
+  - 'Giovanni : You ruined my plan ! '
+  - 'Giovanni : But Team Rocket will never fall !'
+  - 'Sasha : If you''ll excuse me, I have some business to attend to.'
+  - 'Giovanni : This is not the end ! I will have my revenge.'
+  - 'Sasha : I don''t think so !'
