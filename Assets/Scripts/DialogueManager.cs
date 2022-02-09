@@ -7,6 +7,8 @@ using UnityEngine.UI;
 public class DialogueManager : MonoBehaviour
 {
     [SerializeField] private GameObject buttonStart;
+    [SerializeField] private GameObject buttonNext;
+    [SerializeField] private GameObject buttonPrevious;
     [SerializeField] private DialogueSo dialogueSo;
     [SerializeField] private TextMeshProUGUI textBox;
     [SerializeField] private TextMeshProUGUI textBoxSuivant;
@@ -27,6 +29,8 @@ public class DialogueManager : MonoBehaviour
         if (isOnDialogue == false)
         {
             buttonStart.SetActive(false);
+            buttonNext.SetActive(true);
+            buttonPrevious.SetActive(true);
             StopAllCoroutines();
             StartCoroutine(Writing(dialogueSo.dialogue[currentDialogue]));
             isOnDialogue = true; 
@@ -55,10 +59,12 @@ public class DialogueManager : MonoBehaviour
         {
             StopAllCoroutines();
             StartCoroutine(Writing("Bye !"));
-            isOnDialogue = false;
-            currentDialogue = 0;
+            buttonNext.SetActive(false);
+            buttonPrevious.SetActive(false);
             buttonStart.SetActive(true);
             buttonStart.GetComponentInChildren<TextMeshProUGUI>().text = "Start";
+            isOnDialogue = false;
+            currentDialogue = 0;
         }
     }
 

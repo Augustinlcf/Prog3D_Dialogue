@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - 'Giovanni : Arrgh!! I lost again !?'
-  - 'Sasha : Ha ! That was a truly intense fight !'
-  - 'Sasha : You are facing the world''s greatest Trainer.'
+  - 'Sacha : Ha ! That was a truly intense fight !'
+  - 'Sacha : You are facing the world''s greatest Trainer.'
   - 'Giovanni : You ruined my plan ! '
   - 'Giovanni : But Team Rocket will never fall !'
-  - 'Sasha : If you''ll excuse me, I have some business to attend to.'
+  - 'Sacha : If you''ll excuse me, I have some business to attend to.'
   - 'Giovanni : This is not the end ! I will have my revenge.'
-  - 'Sasha : I don''t think so !'
+  - 'Sacha : I don''t think so !'

@@ -255,6 +255,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonStart: {fileID: 2109564756}
+  buttonNext: {fileID: 1823112487}
+  buttonPrevious: {fileID: 820793100}
   dialogueSo: {fileID: 11400000, guid: 45dc78c716279ca4dbb0c41386066668, type: 2}
   textBox: {fileID: 850719575}
   textBoxSuivant: {fileID: 1252556376}
@@ -286,7 +288,7 @@ GameObject:
   - component: {fileID: 529340610}
   - component: {fileID: 529340609}
   m_Layer: 5
-  m_Name: sasha
+  m_Name: sacha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1557,7 +1559,7 @@ GameObject:
   - component: {fileID: 2061051354}
   - component: {fileID: 2061051353}
   m_Layer: 5
-  m_Name: Image
+  m_Name: TextBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1683,8 +1685,8 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.013315024, g: 0.7830189, b: 0, a: 1}
-    m_HighlightedColor: {r: 0.120427296, g: 0.754717, b: 0, a: 1}
+    m_NormalColor: {r: 0.013315024, g: 0.7830189, b: 0, a: 0.5254902}
+    m_HighlightedColor: {r: 0.08166501, g: 0.509434, b: 0, a: 0.5529412}
     m_PressedColor: {r: 0.011764707, g: 0.7843138, b: 0, a: 1}
     m_SelectedColor: {r: 0, g: 0.4528302, b: 0.02104968, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
